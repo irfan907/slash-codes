@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Startup - Startup Website Template</title>
+    <title>Slash Codes</title>
 
     <link rel="stylesheet" href="{{ asset('under-c.css') }}">
 </head>
