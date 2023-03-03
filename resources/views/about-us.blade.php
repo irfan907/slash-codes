@@ -11,6 +11,49 @@
         </div>
     </div>
 </div>
+<!-- About Start -->
+<div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-5" style="min-height: 500px;">
+                <div class="position-relative h-100">
+                    <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="{{ asset('theme/img/about.jpg') }}" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="section-title position-relative pb-3 mb-5">
+                    <h5 class="fw-bold text-primary text-uppercase">Who Are We?</h5>
+                    <h1 class="mb-0">IT Solutions With Enormous Experience</h1>
+                </div>
+                <p class="mb-4">At Slash Codes, we offer cutting-edge IT solutions as well as a full-stack digital marketing agency. With a good grasp of every facet of digital marketing, our highly qualified and experienced crew enables us to create a benchmark. We offer full innovative solutions that are tailored to your expectations and requirements and assist you to get the best on the table you are having in your plate.
+                    Our tech solutions include mobile app development, web design, SEO and SEM, and brand awareness/personal branding. Slash Codes takes pride in delivering end-to-end exemplary customer service. Our proficient team of experienced professionals assure to provide top-notch quality services that draw the best and exceptional outcomes. We promise fulfillment by offering each individual consumer the help they seek in a professional yet welcoming way.
+                    </p>
+                <!-- <div class="row g-0 mb-3">
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Exceptional Customer Care</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Dedicated Project Managers</h5>
+                    </div>
+                    <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional and skilled team</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>End-to-end exemplary service</h5>
+                    </div>
+                </div> -->
+                <!-- <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="bg-primary d-flex align-items-center justify-content-center rounded" style="width: 60px; height: 60px;">
+                        <i class="fa fa-phone-alt text-white"></i>
+                    </div>
+                    <div class="ps-4">
+                        <h5 class="mb-2">Call to ask any question</h5>
+                        <h4 class="text-primary mb-0">+92 303 0637781</h4>
+                    </div>
+                </div> -->
+                <!-- <a href="{{ route('get_a_quote') }}" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request A Quote</a> -->
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- About End -->
 @include('common.about')
 @include('common.vendor')
 @endsection

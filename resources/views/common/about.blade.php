@@ -5,17 +5,18 @@
             <div class="col-lg-7">
                 <div class="section-title position-relative pb-3 mb-5">
                     <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
-                    <h1 class="mb-0">The Best IT Solution With 10 Years of Experience</h1>
+                    <h1 class="mb-0">IT Solutions With Enormous Experience</h1>
                 </div>
-                <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum et tempor sit. Aliqu diam amet diam et eos labore. Clita erat ipsum et lorem et sit, sed stet no labore lorem sit. Sanctus clita duo justo et tempor eirmod magna dolore erat amet</p>
+                <p class="mb-4">Our team has deep expertise across all IT services. We deliver revenue generating services. Join us, and we'll figure out the best solution that fits, whether you want to develop an app for your company, strengthen your footprint on all social media platforms, drive more traffic to your website, or boost conversions.
+                </p>
                 <div class="row g-0 mb-3">
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.2s">
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Award Winning</h5>
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional Staff</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Exceptional Customer Care</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Dedicated Project Managers</h5>
                     </div>
                     <div class="col-sm-6 wow zoomIn" data-wow-delay="0.4s">
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>24/7 Support</h5>
-                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Professional and skilled team</h5>
+                        <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>End-to-end exemplary service</h5>
                     </div>
                 </div>
                 <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
