@@ -37,7 +37,8 @@ Route::prefix('staging')->group(function () {
     Route::view('our-team','our-team')->name('our_team');
     Route::view('pricing','pricing')->name('pricing');
     Route::view('testimonials','testimonials')->name('testimonials');
-    Route::view('get-a-quote','get-quote')->name('get_a_quote');
+    Route::view('free-quote','get-quote')->name('get_a_quote');
+    Route::post('free-quote',[PageController::class,'saveFreeQuote'])->name('save_quote');
     Route::view('thank-you','thank-you')->name('thank_you');
 });
 

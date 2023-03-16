@@ -60,25 +60,25 @@
                     @csrf
                     <div class="row g-3">
                         <div class="col-md-6">
-                            <input type="text" name="name" value="{{ old('name') }}" class="form-control border-0 bg-light px-4" placeholder="Your Name*" style="height: 55px;">
+                            <input type="text" name="name" value="{{ old('name') }}" class="form-control border-0 bg-light px-4" placeholder="Your Name*" style="height: 55px;" required>
                             @error('name')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
                         <div class="col-md-6">
-                            <input type="email" name="email" value="{{ old('email') }}" class="form-control border-0 bg-light px-4" placeholder="Your Email*" style="height: 55px;">
+                            <input type="email" name="email" value="{{ old('email') }}" class="form-control border-0 bg-light px-4" placeholder="Your Email*" style="height: 55px;" required>
                             @error('email')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
                         <div class="col-12">
-                            <input type="text" name="subject" value="{{ old('subject') }}" class="form-control border-0 bg-light px-4" placeholder="Subject*" style="height: 55px;">
+                            <input type="text" name="subject" value="{{ old('subject') }}" class="form-control border-0 bg-light px-4" placeholder="Subject*" style="height: 55px;" required>
                             @error('subject')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
                         </div>
                         <div class="col-12">
-                            <textarea name="message" value="{{ old('name') }}" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message*">{{ old('message') }}</textarea>
+                            <textarea name="message" value="{{ old('name') }}" class="form-control border-0 bg-light px-4 py-3" rows="4" placeholder="Message*" required>{{ old('message') }}</textarea>
                             @error('message')
                                 <small class="text-danger">{{ $message }}</small>
                             @enderror
