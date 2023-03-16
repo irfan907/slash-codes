@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -30,12 +31,14 @@ Route::prefix('staging')->group(function () {
     Route::view('services/graphic-designing','services.graphic-designing')->name('services.graphic_designing');
     Route::view('about-us','about-us')->name('about_us');
     Route::view('contact-us','contact-us')->name('contact_us');
+    Route::post('contact-us',[PageController::class,'saveContact'])->name('save_contact_us');
     Route::view('blogs','blogs.blogs-list')->name('blogs');
     Route::view('blogs/detail','blogs.blog-detail')->name('blogs_detail');
     Route::view('our-team','our-team')->name('our_team');
     Route::view('pricing','pricing')->name('pricing');
     Route::view('testimonials','testimonials')->name('testimonials');
     Route::view('get-a-quote','get-quote')->name('get_a_quote');
+    Route::view('thank-you','thank-you')->name('thank_you');
 });
 
 
