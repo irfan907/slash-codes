@@ -22,9 +22,14 @@ Route::prefix('staging')->group(function () {
     Route::get('/', function () {
         return view('home');
     })->name('home');
+    Route::view('services','services')->name('services');
+    Route::view('services/360-solutions','services.360-solutions')->name('services.360_solutions');
+    Route::view('services/app-development','services.app-development')->name('services.app_development');
+    Route::view('services/web-design-and-development','services.web-design-and-development')->name('services.web_development');
+    Route::view('services/digital-marketing','services.digital-marketing')->name('services.digital_marketing');
+    Route::view('services/graphic-designing','services.graphic-designing')->name('services.graphic_designing');
     Route::view('about-us','about-us')->name('about_us');
     Route::view('contact-us','contact-us')->name('contact_us');
-    Route::view('services','services')->name('services');
     Route::view('blogs','blogs.blogs-list')->name('blogs');
     Route::view('blogs/detail','blogs.blog-detail')->name('blogs_detail');
     Route::view('our-team','our-team')->name('our_team');

@@ -1,4 +1,6 @@
 @extends('layouts.master')
+@section('meta_title','Home')
+@section('meta_Description',' ')
 
 @section('content')
     @include('common.home-corousel')

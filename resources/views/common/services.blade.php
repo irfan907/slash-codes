@@ -14,7 +14,7 @@
                     <h4 class="mb-3">Web Design & Development</h4>
                     <p class="m-0">Attract your audience like never before with well-designed and fully functional websites!
                     </p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services.web_development') }}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -27,7 +27,7 @@
                     <h4 class="mb-3">App Development
                     </h4>
                     <p class="m-0">Develop customized Android, iOS, and cross-platform applications to catch your prospects’ eye.</p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services.app_development') }}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -40,7 +40,7 @@
                     <h4 class="mb-3">Graphic Design</h4>
                     <p class="m-0">Turning your ordinary into something extraordinary with creative graphics and visuals.
                     </p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services.graphic_designing') }}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -53,7 +53,7 @@
                     <h4 class="mb-3">Digital Marketing</h4>
                     <p class="m-0">Providing finest digital marketing solutions to turn your startup or small business into a leading brand!
                     </p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services.digital_marketing') }}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
@@ -66,7 +66,7 @@
                     <h4 class="mb-3">360° Solutions</h4>
                     <p class="m-0">Employing all marketing channels and techniques to make your brand stand out of the competition!
                     </p>
-                    <a class="btn btn-lg btn-primary rounded" href="">
+                    <a class="btn btn-lg btn-primary rounded" href="{{ route('services.360_solutions') }}">
                         <i class="bi bi-arrow-right"></i>
                     </a>
                 </div>
