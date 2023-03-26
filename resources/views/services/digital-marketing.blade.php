@@ -79,7 +79,7 @@
                 <img src="{{ asset('theme/img/carousel-1.jpg') }}" style="height:150px; width: 100%; object-fit: contain;" alt="">
             </div>
         </div>
-        <div class="row">
+        <div class="row my-5">
             <div class="bg-light col-12 p-3 rounded-2">
                 <p>
                     <h2 class="text-center">                    Why Work With Slash Codes?
