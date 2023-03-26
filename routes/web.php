@@ -14,12 +14,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('under-maintenance');
-})->name('under');
+// Route::get('/', function () {
+//     return view('under-maintenance');
+// })->name('under');
 
 
-Route::prefix('staging')->group(function () {
+Route::prefix('')->group(function () {
     Route::get('/', function () {
         return view('home');
     })->name('home');
